@@ -1,0 +1,6 @@
+{
+  "name": "Library Management System",
+  "description": "Full-stack MERN Library Management System for managing books, members, and book issue/return transactions with real REST APIs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

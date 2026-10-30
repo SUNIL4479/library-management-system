@@ -1,0 +1,20 @@
+{
+  "name": "client",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --config ../vite.config.ts",
+    "build": "vite build --config ../vite.config.ts",
+    "preview": "vite preview --config ../vite.config.ts"
+  },
+  "dependencies": {
+    "react": "^19.0.1",
+    "react-dom": "^19.0.1",
+    "lucide-react": "^0.546.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.1",
+    "vite": "^8.3.0"
+  }
+}
