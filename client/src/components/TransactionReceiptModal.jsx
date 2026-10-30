@@ -74,7 +74,7 @@ export const TransactionReceiptModal = ({ isOpen, transaction, onClose, onReturn
           </div>
 
           {/* Book & Borrower Summary */}
-          <div style={{
+          <div className="receipt-summary-grid" style={{
             display: 'grid',
             gridTemplateColumns: 'repeat(2, 1fr)',
             gap: '0.75rem',

@@ -185,7 +185,7 @@ export const AddEditBookModal = ({
             />
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+          <div className="form-row form-row-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
             <div className="form-group">
               <label className="form-label">
                 Author <span style={{ color: '#e11d48' }}>*</span>
@@ -249,7 +249,7 @@ export const AddEditBookModal = ({
               </span>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+            <div className="popularity-options" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
               {[
                 { tier: 'High', label: 'High Demand', rate: '$1.50/day' },
                 { tier: 'Medium', label: 'Medium', rate: '$1.00/day' },
@@ -282,7 +282,7 @@ export const AddEditBookModal = ({
               })}
             </div>
 
-            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '0.75rem', paddingTop: '0.5rem', borderTop: '1px solid #ede9fe', fontSize: '0.75rem' }}>
+            <div className="custom-rate-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '0.75rem', paddingTop: '0.5rem', borderTop: '1px solid #ede9fe', fontSize: '0.75rem' }}>
               <span style={{ color: '#64748b' }}>Custom Daily Rate Override ($):</span>
               <input
                 type="number"
@@ -296,7 +296,7 @@ export const AddEditBookModal = ({
             </div>
           </div>
 
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
+          <div className="form-row form-row-3" style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.75rem' }}>
             <div className="form-group">
               <label className="form-label">
                 ISBN <span style={{ color: '#e11d48' }}>*</span>

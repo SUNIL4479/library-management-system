@@ -43,7 +43,7 @@ export const Dashboard = ({
               <Sparkles style={{ width: '0.875rem', height: '0.875rem' }} />
               <span>Popularity-Based Daily Accrual Active</span>
             </div>
-            <h1 className="font-serif" style={{ fontSize: '2.25rem', fontWeight: 700, letterSpacing: '-0.025em', color: '#ffffff', lineHeight: 1.15 }}>
+            <h1 className="font-serif" style={{ fontSize: 'clamp(1.75rem, 6vw, 2.25rem)', fontWeight: 700, letterSpacing: '-0.025em', color: '#ffffff', lineHeight: 1.15 }}>
               Library Operations Hub
             </h1>
             <p style={{ fontSize: '0.9375rem', color: '#cbd5e1', fontWeight: 300, lineHeight: 1.6, marginTop: '0.5rem', maxWidth: '36rem' }}>
@@ -144,9 +144,9 @@ export const Dashboard = ({
       </div>
 
       {/* 2-Column Main Section */}
-      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '2rem' }}>
+      <div className="dashboard-activity-layout">
         {/* Active Circulating Loans Table */}
-        <div className="card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between', gridColumn: 'span 2' }}>
+        <div className="card dashboard-activity-card" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
           <div>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', paddingBottom: '1rem', borderBottom: '1px solid #f1f5f9' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>

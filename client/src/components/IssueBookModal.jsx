@@ -232,7 +232,7 @@ export const IssueBookModal = ({
           </div>
 
           {/* Dates */}
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
+          <div className="form-row form-row-2" style={{ display: 'grid', gridTemplateColumns: 'repeat(2, 1fr)', gap: '1rem' }}>
             <div className="form-group">
               <label className="form-label">
                 Issue Date <span style={{ color: '#e11d48' }}>*</span>

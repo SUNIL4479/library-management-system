@@ -56,6 +56,8 @@ export const Navbar = ({
           <button
             onClick={onOpenAddBookModal}
             className="btn btn-secondary"
+            aria-label="Add book"
+            title="Add book"
           >
             <Plus style={{ width: '0.875rem', height: '0.875rem' }} />
             <span>Add Book</span>
@@ -63,6 +65,8 @@ export const Navbar = ({
           <button
             onClick={onOpenIssueModal}
             className="btn btn-primary"
+            aria-label="Issue book"
+            title="Issue book"
           >
             <span>Issue Book</span>
             <ArrowUpRight style={{ width: '0.875rem', height: '0.875rem', opacity: 0.8 }} />
